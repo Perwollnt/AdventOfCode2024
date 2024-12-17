@@ -211,9 +211,4 @@ public class DayFiveSolver extends Solver {
     public String print() {
         return "Day 5";
     }
-
-    @Override
-    public boolean isDisabled() {
-        return false;
-    }
 }
