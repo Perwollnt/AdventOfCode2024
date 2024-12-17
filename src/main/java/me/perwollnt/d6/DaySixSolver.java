@@ -107,10 +107,4 @@ public class DaySixSolver extends Solver {
     public boolean isDisabled() {
         return false;
     }
-
-    private static class InvalidMoveException extends Exception {
-        public InvalidMoveException(String message) {
-            super(message);
-        }
-    }
 }
